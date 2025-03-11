@@ -1,1 +1,4 @@
 /* Place CSS styles here */
+body {
+    min-height: 100vh;
+}
