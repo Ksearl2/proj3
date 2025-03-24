@@ -1,8 +1,21 @@
 /* Place CSS styles here */
 body {
     min-height: 100vh;
+    background-color: aqua;
 }
 
-.train-car {
-    width: auto;
+.train_car {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
 }
+
+.landscape1 {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    inset: 0;
+}
+
+
