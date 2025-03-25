@@ -1,10 +1,16 @@
 /* Place CSS styles here */
 body {
+    width: 100vw;
     min-height: 100vh;
     background-color: aqua;
 }
 
-.train_car23 {
+.absolute_image {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.train_car {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
@@ -12,10 +18,19 @@ body {
 }
 
 .landscape1 {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    inset: 0;
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landscape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4%;
+    padding-left: 5%
 }
 
 
