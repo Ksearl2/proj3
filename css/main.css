@@ -3,6 +3,7 @@ body {
     width: 100vw;
     min-height: 100vh;
     background-color: aqua;
+    overflow: hidden;
 }
 
 .absolute_image {
@@ -31,6 +32,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 1.5%;
+    padding-top: 4%;
 
 }
 
