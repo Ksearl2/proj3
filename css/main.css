@@ -24,10 +24,74 @@ body {
     width: 85%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 630px;
+    padding-top: 50px;
 }
 
 .size {
     width: 100%
 }
 
+.station {
+    margin-left: 37%;
+    padding-top: 260px;
+    transition: transform 0.5s ease;
+}
+
+
+p span{
+    font-family: Raleway Dots;
+    font-size: 250px;
+    color: rgb(44, 190, 44);
+    background-color: black;
+    padding:30px 1000px 30px 150px;
+
+}
+
+@media (max-width: 768px) {
+   body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+   }
+   
+   .absolute_image {
+    width: 100vw;
+    min-height: 100vw;
+}
+
+    .train_car {
+        width: 176vh;;
+        height: auto;
+        position: absolute;
+        z-index: 100;
+        margin-top: -13px;
+        margin-right: auto;
+        margin-left: auto;
+      
+    }
+    
+    .station {
+        margin-left: 0;
+        padding-top: 0;
+    }
+    
+    
+    p span{
+        font-family: Raleway Dots;
+        font-size: 50px;
+        color: rgb(44, 190, 44);
+        background-color: black;
+        padding:0px 0px 0px 0px;
+    }
+
+    .window {
+        width: 280%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 90px;
+        margin-left: 100px;
+    }
+    
+    .size {
+        width: 100%
+    }
+}
