@@ -47,6 +47,117 @@ p span{
 
 }
 
+.welcome{
+    position: absolute;
+    z-index: 101;
+    margin-top: 300px;
+}
+
+.text{
+    font-family: Raleway Dots;
+    font-size: 180px;
+    color: rgb(44, 190, 44);
+    background-color: black;
+    border-radius: 100px;
+    padding-inline: 0px;
+    margin-left: 2400px;
+    animation: fadein 5s;
+    animation-delay: 10s;
+    opacity: 0;
+}
+
+.text-2{
+    font-family: Raleway Dots;
+    font-size: 180px;
+    color: rgb(44, 190, 44);
+    background-color: black;
+    border-radius: 100px;
+    padding-inline: 0px;
+    margin-left: 2400px;
+    animation: fadeout 5s;
+    animation-delay: 15s;
+    opacity: 0;
+}
+
+.text-3{
+    font-family: Raleway Dots;
+    font-size: 180px;
+    color: rgb(44, 190, 44);
+    background-color: black;
+    border-radius: 100px;
+    padding-inline: 0px;
+    margin-left: 2400px;
+    animation: fadein 5s;
+    animation-delay: 25s;
+    opacity: 0;
+    padding:30px 400px 30px 150px;
+}
+
+.text-4{
+    font-family: Raleway Dots;
+    font-size: 180px;
+    color: rgb(44, 190, 44);
+    background-color: black;
+    border-radius: 100px;
+    padding-inline: 0px;
+    margin-left: 2400px;
+    animation: fadeout 5s;
+    animation-delay: 30s;
+    opacity: 0;
+    padding:30px 400px 30px 150px;
+}
+
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+    }
+}
+
+.luggage{
+    position: absolute;
+    z-index: 102;
+    margin-top: 2000px;
+    margin-left:500px
+}
+
+.luggage-2{
+    position: absolute;
+    z-index: 102;
+    margin-top: 2000px;
+    margin-left:1500px
+}
+
+.luggage-3{
+    position: absolute;
+    z-index: 102;
+    margin-top: 2000px;
+    margin-left:4000px
+}
+
+.luggage-4{
+    position: absolute;
+    z-index: 102;
+    margin-top: 2000px;
+    margin-left:5200px
+}
+
+
+
 @media (max-width: 768px) {
    body{
     overflow-x: hidden;
